@@ -89,11 +89,13 @@ body.fotos #navegacao a#fotos {
   background: red;
 }
 
-#secundario {
-  width: 270px;
-  float: left;
-  margin: 0 0 20px 15px;
-  background: green;
+#duas-colunas #primario {
+  width: 555px;
+}
+
+#uma-coluna #primario {
+  width: 750px;
+  margin: 0 0 20px 0;
 }
 
 #lateral {
@@ -101,6 +103,13 @@ body.fotos #navegacao a#fotos {
   float: left;
   margin: 0 0 20px -750px;
   background: yellow;
+}
+
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+  background: green;
 }
 
 
